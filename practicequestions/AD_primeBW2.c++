@@ -10,7 +10,7 @@ using namespace std;
            if(j%i==0)
           {
             k++;
-            break;
+            break;  
           }
           
          }
