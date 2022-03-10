@@ -1,0 +1,29 @@
+inline void debugMode() {
+
+#ifndef ONLINE_JUDGE
+
+freopen("input.txt", "r", stdin);
+
+freopen("output.txt", "w", stdout);
+
+#endif // ONLINE_JUDGE
+}
+/************************the function used for opening the i/o to next file is ****************/
+void init_code()
+{
+#ifndef ONLINE_JUDGE
+freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
+#endif // ONLINE_JUDGE
+}
+/************must call the function just in the main () of the program.***********************/
+// example code 
+/************************
+
+int main()
+{   init_code();
+	string s;
+	cin>>s;
+	cout<<"hello "<<s;
+}
+******************************/

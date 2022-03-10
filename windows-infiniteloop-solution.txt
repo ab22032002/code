@@ -1,0 +1,15 @@
+windows problem while solving an infinite loop 
+while(true)
+// 
+task manager
+you got similiar name as your running file 
+e.g. 
+1.cpp
+end the process at task manager
+
+just simple as that 
+
+
+ALL IN ONE 
+<bits/stdc++.h>
+

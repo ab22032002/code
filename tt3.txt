@@ -1,0 +1,39 @@
+cal l->r 
+same level op 
+as written
+overflow :::
+int           -10^9 to 10^9
+long int      -10^12 to 10^12
+long long int -10^18 to 10^18
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	int mx= INT_MAX;
+	cout<<mx;
+}
+2147483647
+-2147483648 for mx+1;
+overflow.cpp
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	int mx= INT_MAX;
+	cout<<mx+1<<endl;
+	double d;
+	cin>>d;
+	double e=13425;
+	double  j =e*d;
+	cout<<j<<endl;
+	cout<<fixed<<j<<endl;
+	cout<<setprecision(2)<<j;
+
+
+}-2147483648
+1.65732e+08
+165731625.000000
+165731625.00
+a* (1LL) b
+when both values are of int and you  want it to be a value of long long int
+a* 1LL *b to explicitely convert it into ll int 

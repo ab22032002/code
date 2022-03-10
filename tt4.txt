@@ -1,0 +1,7 @@
+break and continue can be used to handle the exception 
+for(int i=0;i<10;i++)
+{ if(i==7)
+  {break;
+  }
+cout<<i<<endl; 
+}

@@ -1,0 +1,16 @@
+double d = 3/2 
+cout<<d ;
+output is 1 as the flow is right to left for any statement 
+so first it will be divivded and a at last it will get stored in the double 
+same precedence 
+have left to right mode 
+long long int  have 10^18 
+doble 
+setprecison(0)
+generates double value with 0 no. of digits after decimal 
+int main ()
+int l,b; // long long int l,b;
+cin>>l>>b;
+cout<<l*1LL*b<<endl;/// when we require the answer in the format of long long int ;
+// and the given inputs are in the form of integers
+
