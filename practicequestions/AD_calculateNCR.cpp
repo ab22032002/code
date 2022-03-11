@@ -13,12 +13,18 @@ int fact(int x)
 //     int k = fact(n)/((fact(n-r)*fact(r))) ;
 //     return k;
 // }
+ int ncr(int a,int b)
+ { int k;
+   k = fact(a)/((fact(a-b)*fact(b))) ;
+   return k;
+ }
 int main()
-{ int a,b ,k;
+{ int a,b,k;
   cout<<"enter the numbers in NCR pattern to get the combination \n";
   cin>>a>>b;
-    k = fact(a)/((fact(a-b)*fact(b))) ;
-   cout<<k;
-//   NCR(a,b);
+   // k = fact(a)/((fact(a-b)*fact(b))) ;
+   //cout<<k;
+  // ncr(a,b);
+   cout<<ncr(a,b);
   return 0;
 }
